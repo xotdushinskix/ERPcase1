@@ -15,8 +15,8 @@ randomHelper = RandomHelper()
 class MyTestCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        #self.driver.get('http://admin:q1w2e3r4@testing.bintime.com')
-        self.driver.get('http://admin:skdf%24%23%26%26%25tg@erp.bintime.com:81/')
+        #self.driver.get('http://com')
+        self.driver.get('http:/com:81/')
 
     def testLogin(self):
         driver = self.driver
